@@ -3,7 +3,7 @@
 
   <remote  name="PixelOS"
       fetch="https://github.com/PixelOS-AOSP"
-           revision="refs/heads/fifteen-qpr1" />
+           revision="refs/heads/fifteen" />
 
   <remote  name="PixelOS-Gitlab"
            fetch="https://gitlab.com/PixelOS-AOSP"
@@ -11,7 +11,7 @@
 
   <remote  name="fiqri19102002"
            fetch="https://github.com/fiqri19102002"
-           revision="refs/heads/fifteen-qpr1" />
+           revision="refs/heads/fifteen" />
 
   <remote  name="fiqri19102002-Codeberg"
            fetch="https://codeberg.org/fiqri19102002"
@@ -44,6 +44,7 @@
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="PixelOS" />
   <project path="packages/apps/ParanoidSense" name="packages_apps_ParanoidSense" remote="PixelOS" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="PixelOS" />
+  <project path="packages/apps/Updater" name="packages_apps_Updater" remote="PixelOS" />
   <project path="vendor/aosp" name="vendor_aosp" remote="fiqri19102002" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="PixelOS" />
   <project path="vendor/extra" name="vendor_extra" remote="fiqri19102002" />
